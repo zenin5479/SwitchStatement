@@ -15,7 +15,7 @@
 
         public static void SubMultipleCaseResults(int switchTemp)
         {
-            var resultstring = string.Empty;
+            string resultstring;
 
             switch (switchTemp)
             {
@@ -39,10 +39,10 @@
         {
             switch (value)
             {
-                case int n when (n >= 50 && n <= 150):
+                case var n when (n >= 50 && n <= 150):
                     Console.WriteLine("Это значение находится в диапазоне от 50 до 150");
                     break;
-                case int n when (n >= 150 && n <= 200):
+                case var n when (n >= 150 && n <= 200):
                     Console.WriteLine("Это значение находится в диапазоне от 150 до 200");
                     break;
                 default:

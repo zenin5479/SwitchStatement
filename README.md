@@ -1,2 +1,2 @@
 # SwitchStatement
-Оператор switch
+РћРїРµСЂР°С‚РѕСЂ switch
